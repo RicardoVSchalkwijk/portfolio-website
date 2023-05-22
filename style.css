@@ -14,6 +14,13 @@
       justify-content: space-between;
    }
 }
+@font-face {
+   font-family: 'ubunturegular';
+   src: url("https://https://ricardovschalkwijk.github.io//css/fonts/ubunturegular.eot");
+   src: url("https://https://ricardovschalkwijk.github.io//css/fonts/ubunturegular.woff") format("woff"),
+   url("https://https://ricardovschalkwijk.github.io//css/fonts/ubunturegular.otf") format("opentype"),
+   url("https://https://ricardovschalkwijk.github.io//css/fonts/ubunturegular.svg#filename") format("svg");
+}
 #navbarNav {
    text-align: right;
 }
@@ -38,6 +45,7 @@
 }
 body {
    background-color: #205d5636;
+   font-family: 'ubunturegular';
 }
 a {
    text-decoration: none;

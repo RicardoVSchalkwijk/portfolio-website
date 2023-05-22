@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a href="index.html#main_card" class="navbar-brand mb-0 mx-1 h3 text-light ps-2 w-70">Ricardo van Schalkwijk</a>
+        <button type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler secondary me-4"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+            class="collapse navbar-collapse me-4 w-20"
+            id="navbarNav">
+            <div class="ms-auto d-inline-flex">
+                <ul class="navbar-nav">  
+                    <li class="nav-item">
+                        <a href="index.html#skills" class="nav-link active text-light">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#projects" class="nav-link active text-light">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link text-light">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--main container for content-->
+    <section class="container">
+        <div class="row text-center">
+            <h2 class="my-3">Calculator (PHP)</h2>
+        </div>
+<!--information about project-->
+        <div class="border rounded py-3 px-3 shadow white">
+            <article>Voor deze opdracht moest ik een simpele calculator namaken met 5 verschillende reken opties. In de afbeeldingen hieronder laat ik het resultaat zien. Voor deze opdracht hoefden wij geen uitgebreide CSS styling te gebruiken, omdat back-end development in PHP het belangrijkste leerpunt was.</article>
+        </div>
+<!--pictures-->
+        <article class="row mt-1 mb-3 g-3">
+            <picture class="rounded px-2 col-md-6 col-lg-6">
+                <img src="calculator.png" class="picshadow rounded w-100" alt="calculator">
+            </picture>
+            <picture class="rounded px-2 col-md-6 col-lg-6">
+                <img src="calculation_add.png" class="picshadow rounded w-100" alt="calculation_add">
+            </picture>
+        </article>
+    </section>
+</body>
+</html>

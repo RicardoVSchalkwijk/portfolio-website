@@ -1,0 +1,44 @@
+@media (min-width: 992px) {
+   .card-body {
+      display: flex;
+      height: 4rem;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+}
+@media (min-width: 768px) {
+   .card-body {
+      display: flex;
+      height: 4rem;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+}
+#navbarNav {
+   text-align: right;
+}
+#projectcard:hover {
+   transform: scale(1.03);
+   transition: transform .2s;
+}
+#skills > div.container.text-center.col-md-6 > div {
+   height: 555.6px;
+}
+.picshadow {
+   box-shadow: 3px 3px 6px grey;
+}
+.seaweedgreen {
+   background-color: #205d56d8;
+}
+.seaweedgreenborder {
+   border-color: #205d5636;
+}
+.white {
+   background-color: white;
+}
+body {
+   background-color: #205d5636;
+}
+a {
+   text-decoration: none;
+}
